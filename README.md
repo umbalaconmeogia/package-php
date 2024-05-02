@@ -4,6 +4,8 @@
 
 Tài liệu này giải thích về tác dụng của chương trình quản lý PHP package *composer*, ý nghĩa của file composer.json, và cách để đóng gói một package của mình.
 
+Nói ngắn gọn, thì để đóng gói các file PHP thành một package mà ta có thể sử dụng nó trong các chương trình khác thông qua lệnh composer, ta chỉ cần tạo cho nó một file composer.json.
+
 ## Lệnh require của PHP
 
 Lệnh [require](https://www.php.net/manual/en/function.require.php) (cũng như lệnh [include](https://www.php.net/manual/en/function.include.php)) của PHP cho phép ta chèn các phần code trong một file PHP khác vào đoạn code ta đang viết.
