@@ -20,7 +20,7 @@ function helloWorld()
 }
 ```
 
-Giờ ta có file *sampleRequire.php* trong đó ta chèn code của file *lib/MyLibrary.php* vào như sau
+Giờ ta có file [sampleRequire.php](sampleRequire.php) trong đó ta chèn code của file *lib/MyLibrary.php* vào như sau
 
 ```php
 <?php
@@ -81,7 +81,7 @@ Và chương trình của ta chỉ cần require cái file *vendor/autoload.php*
 
 ### Khai báo phụ thuộc trong composer.json
 
-Ta tạo một file *composer.json* như sau
+Ta tạo một file [composer.json](composer.json) như sau
 ```json
 {
     "minimum-stability": "dev",
@@ -106,7 +106,7 @@ composer install
 nó sẽ tạo ra thư mục *vendor*, download code của các package cần thiết, và tạo ra file *vendor/autoload.php* để require code của package đã download về.
 Nó cũng tạo ra file *composer.lock* nữa, nhưng ta sẽ không đề cập tới ở đây.
 
-Giờ ta tạo một chương trình PHP *samplePackagePhpDev.php* để sử dụng package *umbalaconmeogia/package-php-dev* đã download về ở trên như sau
+Giờ ta tạo một chương trình PHP [samplePackagePhpDev.php](samplePackagePhpDev.php) để sử dụng package *umbalaconmeogia/package-php-dev* đã download về ở trên như sau
 ```php
 <?php
 require "vendor/autoload.php";
