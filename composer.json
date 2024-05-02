@@ -1,0 +1,12 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "umbalaconmeogia/package-php-dev": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:umbalaconmeogia/package-php-dev.git"
+        }
+    ]
+}
