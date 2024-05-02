@@ -83,7 +83,8 @@ Và chương trình của ta chỉ cần require cái file *vendor/autoload.php*
 
 ### Khai báo phụ thuộc trong composer.json
 
-Ta tạo một file [composer.json](composer.json) như sau
+Ta tạo một file [composer.json](composer.json) như sau (đây là file composer.json để download các thư viện ta muốn sử dụng, không phải là file composer.json của package).
+
 ```json
 {
     "minimum-stability": "dev",
