@@ -1,0 +1,13 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "umbalaconmeogia/package-php-dev": "*"
+    },
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../../package-php-dev",
+			"symlink": true
+		}
+	]
+}
